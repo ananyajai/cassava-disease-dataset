@@ -1,0 +1,11 @@
+{
+    "name": "obscure space lamp",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "remoteEnv": {
+      "KAGGLE_USERNAME": "${{ secrets.KAGGLE_USERNAME }}",
+      "KAGGLE_KEY": "${{ secrets.KAGGLE_KEY }}"
+    }
+  }
+  
